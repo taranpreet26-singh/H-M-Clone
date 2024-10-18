@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger_icon {
+    display: none;
+}
+
+
+.navigation_container {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+    height: 12vh;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.left_content ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.left_content li a {
+    text-decoration-line: none;
+    color: black;
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.image_li {
+    position: relative;
+    top: 1px;
+}
+
+.right_content div {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 2px;
+    margin-left: 10px;
+    color: black;
+}
+
+.right_content div p {
+    font-size: 14px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    color: black;
+}
+
+.right_content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+/* Category block */
+
+.category {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px
+}
+
+.category li {
+    list-style: none;
+    font-family: "Baloo Bhaijaan 2";
+    font-size: large;
+    font-weight: 500;
+}
+
+/* banner */
+.info_banner {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 20px;
+}
+
+.info_banner p {
+    font-size: 14px;
+    color: black;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+
+/* poster */
+
+
+.poster_image {
+    height: 87vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/ws40m/WS40M-3x2.jpg?imwidth=1536");
+}
+
+.poster_image p,
+h2 {
+    color: white;
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 600;
+    z-index: 1;
+}
+
+.button_view {
+    width: max-content;
+    padding: 4px;
+    height: 4vh;
+    font-style: "Baloo Bhaijaan 2";
+    background-color: aliceblue;
+    border-color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 540;
+    opacity: 0.8;
+}
+
+.poster {
+    margin-top: 30px;
+
+}
+
+/* sec poster */
+
+.container2_poster {
+    margin-top: 20px;
+}
+
+.sec_poster {
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/9NO-Fall-Fashion-Men-TB-3x1.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+    height: 20vh;
+    width: 61.5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+    background-size: cover;
+}
+
+.sec_poster p {
+    color: whitesmoke;
+}
+
+/* poster3 */
+.poster_image3 {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=264%20264w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=396%20396w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=564%20564w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=657%20657w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=768%20768w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=820%20820w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=1260%201260w,%20https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-3x2-1-statement-denim-aesthetics.jpg?imwidth=1536%201536w");
+}
+
+.poster_image3 p,
+h1 {
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.poster3 {
+    margin-top: 20px;
+}
+
+/* Items-list */
+
+.items ul li img {
+    width: 140px;
+}
+
+.items {
+    margin: 0 auto;
+    width: 60vw;
+    margin-top: 20px;
+    box-shadow: inset 10px 23px 58px black,
+        inset -10px -23px 58px black,
+        inset 10px 0px 50px black;
+
+}
+
+.items ul li h4,
+p {
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+.items ul {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+.items ul::-webkit-scrollbar {
+    display: none;
+}
+
+.items ul li {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+/* poster-four */
+.poster_image4 {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/baby/4110c/4110C-3x2-Reebokxhm-Baby.jpg?imwidth=1536");
+}
+
+.button-box-size {
+    background-color: whitesmoke;
+    width: 68px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+
+.size-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+/* poster-five */
+
+
+
+.poster_image5 {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://image.hm.com/content/dam/regional-local-activities/seu/master-mcf/2024-season-9/ladies/Tcl_asset_adaptation_oldsite_3x2.png?imwidth=1536");
+}
+
+.poster_image5 h3,
+h2 {
+    color: white;
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 600;
+    z-index: 1;
+}
+
+/* sixth-poster */
+
+.sixth-poster {
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_09/home/start-page-assets/w-38/7010C-W38-indent-4x5-NS-3.jpg]&scale=size[960]&sink=format[jpeg],quality[80]&quot");
+    height: 16vh;
+    width: 61.5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+/* seventh-poster */
+
+
+
+.poster_image7 {
+    height: 87vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-position: center;
+    background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/ws30m2/2040/2040-JOY-women-teaser-launch-3x2-IN-UNIQUE.jpg?imwidth=1536");
+}
+
+/* footer */
+
+footer {
+    background-color: #faf9f8;
+    height: 64vh;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+.col-box {
+    display: flex;
+    gap: 10vw;
+}
+
+.col1 ul li {
+    list-style: none;
+    margin-bottom: 2px;
+
+}
+
+.col2 p {
+    text-align: justify;
+    text-wrap: wrap;
+    width: 13vw;
+    margin-bottom: 30px;
+}
+
+.col2 h4 {
+    margin-left: 4px;
+}
+
+.social-media-icon {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-media-icon img {
+    width: 20px;
+}
+
+.copy-right-notice {
+    margin-top: 30px;
+}

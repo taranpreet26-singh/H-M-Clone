@@ -1,0 +1,171 @@
+@media screen and (max-width:1010px) {
+    .left_content {
+        display: none;
+    }
+
+    .hamburger_icon {
+        display: flex;
+    }
+
+    .navigation_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+        height: 8vh;
+        padding: 12px;
+        position: relative;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right_content div p {
+        display: none;
+    }
+
+    .right_content {
+        position: relative;
+        left: 25%;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .info_banner p:not(:last-child) {
+        display: none;
+    }
+
+    .poster_image {
+        height: 50vh;
+        background-size: cover;
+        display: flex;
+        width: 80vw;
+        margin: 0 auto;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/ws40m/WS40M-1x1.jpg?imwidth=264");
+    }
+
+    .poster_image h2 {
+        text-align: center;
+    }
+
+    .poster_image button {
+        display: none;
+    }
+
+    .sec_poster {
+        width: 80vw;
+    }
+
+    .btn_lks {
+        display: none;
+    }
+
+    .poster_image3 {
+        background-size: cover;
+        width: 80vw;
+        height: 50vh;
+        background-position: center;
+        background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/men/ms40eb/MS40EB-1x1-1-statement-denim-aesthetics.jpg?imwidth=264");
+    }
+
+    .items {
+        width: 80vw;
+    }
+
+    .poster_image4 {
+        width: 80vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .poster_image5 {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .poster_image5 h2,
+    h3 {
+        text-align: center;
+    }
+
+    .poster_image5 button {
+        display: none;
+    }
+
+    .sixth-poster {
+        width: 80vw;
+    }
+
+    .poster_image7 {
+        width: 80vw;
+        height: 50vh;
+        background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/ws30m2/2040/2040-JOY-women-teaser-launch-1x1.jpg?imwidth=1260");
+    }
+
+    .poster_image7 img {
+        width: 70vw;
+    }
+
+    .poster_image7 button {
+        display: none;
+    }
+
+    .col1 ul {
+        display: none;
+    }
+
+
+    .col1 h3 {
+        font-size: small;
+
+    }
+
+    .col-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-start;
+        gap: 1px;
+    }
+
+    footer {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col2 p {
+        width: 80vw;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-media-icon {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .copy-right-notice h5 {
+        font-size: small;
+        text-align: justify;
+    }
+}
